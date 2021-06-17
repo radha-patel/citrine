@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "HelloWorld",
+    "description": "My first extension.",
+    "version": "1.0",
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }, 
+    "permissions": ["storage", "activeTab", "scripting"],
+    "options_page": "options.html"
+}
